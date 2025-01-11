@@ -34,6 +34,18 @@ $skillButtons.forEach((skillItem) => {
    skillItem.addEventListener("click", selectSkill)
 })
 
+// Loader
+window.addEventListener('load', () => {
+   const loaderWrapper = document.querySelector('.loader-wrapper');
+   const mainContent = document.querySelector('.main-content');
+
+   // Wait for the text animation to finish
+   setTimeout(() => {
+     loaderWrapper.style.display = 'none'; // Hide loader
+     mainContent.style.display = 'block'; // Show main content
+   }, 2500); // Total animation time = 1.8s + buffer
+ });
+
 /* QUALIFICATION TABS */
 const $tabQualification = document.querySelectorAll(".qualification-button")
 let $tabActive = document.querySelector(".qualification-button.-active")

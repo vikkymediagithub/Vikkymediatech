@@ -33,6 +33,43 @@ img {
    height: auto;
 }
 
+ /* Loader container */
+ .loader-wrapper {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #001A33; 
+   color: #ffffff;
+   z-index: 9999;
+ }
+
+ /* Animated text loader */
+ .text-loader span {
+   display: inline-block;
+   font-size: 2.5rem;
+   font-weight: bold;
+   opacity: 0;
+   transform: translateY(20px);
+   animation: fadeIn 1s ease forwards;
+ }
+
+ /* Keyframe for the fade-in animation */
+ @keyframes fadeIn {
+   0% {
+     opacity: 0;
+     transform: translateY(20px);
+   }
+   100% {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+
 /* PROJECT VARIABLES */
 :root {
    /* fonts */
