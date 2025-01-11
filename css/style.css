@@ -42,20 +42,26 @@ img {
    --semi-font: 600;
 
    /* colors */
-   --theme-color: 210; /* medium blue */
+   --theme-color: 210; 
 
-   --first-color: hsl(var(--theme-color), 100%, 41%); /* #0069D1 */
-   --first-color-hover: hsl(var(--theme-color), 100%, 35%);
-   --first-color-lighter: hsl(var(--theme-color), 50%, 85%);
+   /* main color */
+   --first-color: #0069D1; 
+   --first-color-hover: #0057AC;
+   --first-color-lighter: #B3D4F5;
 
-   --title-color: hsl(var(--theme-color), 8%, 15%);
-   --text-color: hsl(var(--theme-color), 8%, 45%);
-   --text-color-light: hsl(var(--theme-color), 8%, 65%);
-   --input-color: hsl(var(--theme-color), 70%, 96%);
-   --label-button: hsl(var(--theme-color), 100%, 10%);
-   --background-color: hsl(var(--theme-color), 60%, 100%);
-   --high-contrast: hsl(var(--theme-color), 100%, 100%);
-   --shadow-color: hsl(var(--theme-color), 10%, 90%);
+   /* Text Colors */
+   --title-color: #202636;
+   --text-color: #0057AC;
+   --text-color-light: #A5ACBA;
+
+   /* Input and Forms Colors */
+   --input-color: #EDF6FD;
+   --label-button: #001A33;
+
+   /* Backgrounds and Extras */
+   --background-color: #FFFFFF;
+   --high-contrast: #FFFFFF ;
+   --shadow-color: #E5E5E5 ;
 }
 
 /* PROJECT SETTINGS */
