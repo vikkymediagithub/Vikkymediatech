@@ -117,8 +117,8 @@ body.dark-theme {
    --text-color: hsl(var(--theme-color), 8%, 75%);
    --input-color: hsl(var(--theme-color), 29%, 16%);
    --background-color: hsl(var(--theme-color), 28%, 12%);
-   --high-contrast: hsl(var(--theme-color), 100%, 100%);
-   --shadow-color: hsl(var(--theme-color), 10%, 25%);
+   --high-contrast: #FFFFFF ;
+   --shadow-color: #E5E5E5 ;
 }
 
 /*=== REUSABLE COMPONENTS START ===*/
